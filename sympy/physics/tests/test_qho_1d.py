@@ -17,7 +17,6 @@ def test_wavefunction():
     for n in Psi:
         assert simplify(psi_n(n, x, m, omega) - Psi[n]) == 0
 
-
 def test_norm(n=1):
     # Maximum "n" which is tested:
     for i in range(n + 1):
